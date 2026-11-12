@@ -29,3 +29,4 @@ For definitions of the project terminology, read [GLOSSARY.md](GLOSSARY.md).
 For the complete end-to-end execution flow and file responsibility map, read [PROJECT_FLOW.md](PROJECT_FLOW.md).
 
 
+<img width="1768" height="771" alt="08c5913b-1105-4cbf-81c6-5eb791e6803c" src="https://github.com/user-attachments/assets/02ba0af5-8a49-478a-b85c-c07327860d28" />
