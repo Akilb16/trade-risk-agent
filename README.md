@@ -1,6 +1,6 @@
 # Trade Risk Agent
 
-An offline-first market-risk agent with a real LangGraph workflow, validated citations, deterministic risk tools, optional OpenAI-compatible function calling, async FastAPI execution, pgvector hooks, MCP tools, guardrails, evaluation, and a minimal browser interface.
+A market-risk agent with a real LangGraph workflow, validated citations, deterministic risk tools, optional OpenAI-compatible function calling, async FastAPI execution, pgvector hooks, MCP tools, guardrails, evaluation, and a minimal browser interface.
 
 ## Run
 
@@ -28,7 +28,4 @@ For definitions of the project terminology, read [GLOSSARY.md](GLOSSARY.md).
 
 For the complete end-to-end execution flow and file responsibility map, read [PROJECT_FLOW.md](PROJECT_FLOW.md).
 
-To export the actual LangGraph workflow as Mermaid, run `python scripts/visualize_graph.py`. It creates `graph.mmd`, which can be opened in Mermaid Live or a Mermaid-enabled Markdown editor.
-
-To render a local PNG with Matplotlib, run `python scripts/visualize_graph_matplotlib.py`. It creates `graph.png` in the project root.
 
