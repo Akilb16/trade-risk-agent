@@ -1,0 +1,14 @@
+model:
+  provider: deterministic
+  name: local-deterministic-v1
+retrieval:
+  top_k: 3
+  chunk_size_tokens: 500
+  overlap_tokens: 50
+  confidence_threshold: 0.65
+database:
+  dsn: postgresql://risk:risk@localhost:5432/risk
+embedding:
+  name: hash-embedding-v1
+  dimension: 64
+

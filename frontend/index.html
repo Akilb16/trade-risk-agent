@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trade Risk Agent</title>
+  <link rel="stylesheet" href="/frontend/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">MARKET RISK</p>
+      <h1>Trade Risk Agent</h1>
+      <p class="muted">Ask a regulatory question or run a risk calculation.</p>
+    </header>
+
+    <section class="panel">
+      <div class="examples">
+        <button data-example="policy">Policy question</button>
+        <button data-example="var">Historical VaR</button>
+        <button data-example="greeks">Black-Scholes Greeks</button>
+        <button data-example="pii">Guardrail test</button>
+      </div>
+      <label for="question">Question</label>
+      <textarea id="question" rows="4" placeholder="e.g. What is model risk?"></textarea>
+      <label for="toolArgs">Tool arguments <span class="muted">(optional JSON)</span></label>
+      <textarea id="toolArgs" rows="5" spellcheck="false" placeholder='{"returns":[-0.1,0.02,0.01],"confidence":0.95,"horizon_days":1}'></textarea>
+      <div class="actions">
+        <button id="send" class="primary">Run request</button>
+        <span id="status" class="muted"></span>
+      </div>
+    </section>
+
+    <section class="panel result-panel">
+      <div class="result-head"><label>Response</label><span id="route"></span></div>
+      <pre id="response">No request yet.</pre>
+    </section>
+  </main>
+  <script src="/frontend/app.js"></script>
+</body>
+</html>

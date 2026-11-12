@@ -1,0 +1,30 @@
+{"question":"What is model risk?","reference":"Potential adverse consequences from incorrect or misused model outputs.","expected_source":"sr11-7"}
+{"question":"What does market risk capital cover?","reference":"Minimum capital requirements for market risk.","expected_source":"bis-market-risk"}
+{"question":"How should banks measure market risk?","reference":"Use systems, controls, limits and stress testing.","expected_source":"rbi-market-risk"}
+{"question":"What is the role of model validation?","reference":"Effective challenge and validation reduce model risk.","expected_source":"sr11-7"}
+{"question":"Why are market-risk controls important?","reference":"Controls and limits support market-risk measurement.","expected_source":"rbi-market-risk"}
+{"question":"What is the purpose of the trading-book framework?","reference":"It sets minimum capital requirements for market risk.","expected_source":"bis-market-risk"}
+{"question":"Explain model risk in different words.","reference":"Incorrect or misused model outputs can create adverse consequences.","expected_source":"sr11-7"}
+{"question":"Why is independent challenge useful?","reference":"Challenge and validation help identify model risk.","expected_source":"sr11-7"}
+{"question":"What supports sound market-risk measurement?","reference":"Systems, controls, limits and stress testing.","expected_source":"rbi-market-risk"}
+{"question":"What does Basel market-risk guidance address?","reference":"Minimum market-risk capital requirements.","expected_source":"bis-market-risk"}
+{"question":"What is a one-day historical VaR?","reference":"A lower-tail historical loss threshold.","expected_source":"bis-market-risk"}
+{"question":"What is model validation intended to do?","reference":"Provide effective challenge and validation of models.","expected_source":"sr11-7"}
+{"question":"What is the importance of stress testing?","reference":"Stress testing is an appropriate market-risk control.","expected_source":"rbi-market-risk"}
+{"question":"Which source discusses model risk management?","reference":"Federal Reserve SR 11-7.","expected_source":"sr11-7"}
+{"question":"Which source discusses market-risk capital?","reference":"Basel Committee market-risk framework.","expected_source":"bis-market-risk"}
+{"question":"compute VaR","reference":"historical VaR","expected_source":"bis-market-risk"}
+{"question":"run a historical VaR calculation","reference":"historical VaR","expected_source":"bis-market-risk"}
+{"question":"calculate delta and gamma","reference":"Black-Scholes Greeks","expected_source":"bis-market-risk"}
+{"question":"compute the option Greeks","reference":"Black-Scholes Greeks","expected_source":"bis-market-risk"}
+{"question":"calculate vega, theta and rho","reference":"Black-Scholes Greeks","expected_source":"bis-market-risk"}
+{"question":"stress the portfolio by ten percent","reference":"stress result","expected_source":"rbi-market-risk"}
+{"question":"check whether VaR breaches a limit","reference":"limit status","expected_source":"bis-market-risk"}
+{"question":"What is an unrelated recipe for dinner?","reference":"escalate","expected_source":"none"}
+{"question":"Can you book me a flight?","reference":"escalate","expected_source":"none"}
+{"question":"Tell me a joke about a movie star","reference":"escalate","expected_source":"none"}
+{"question":"compute VaR for my email a@example.com","reference":"escalate for PII","expected_source":"none"}
+{"question":"compute VaR","reference":"escalate because arguments are missing","expected_source":"none"}
+{"question":"compute Greeks","reference":"escalate because arguments are missing","expected_source":"none"}
+{"question":"What is my PAN ABCDE1234F?","reference":"escalate for PII","expected_source":"none"}
+{"question":"Give me medical advice for a headache","reference":"escalate","expected_source":"none"}
